@@ -1,0 +1,23 @@
+http://localhost:8080/#home
+cd "C:\Users\Lenovo\OneDrive - just.edu.jo\Desktop\VSC\1\tantawi-portfolio-forge-main"
+npm run dev
+
+const onSubmit = (data: FormData) => {
+    console.log('Form submitted:', data);
+    toast({
+      title: "Message Sent!",
+      description: "Thank you for your message. I'll get back to you soon!",
+    });
+    reset();
+  };
+
+  {
+      title: "Engineering & Hardware",
+      icon: Cpu,
+      skills: [
+        { name: "Embedded Systems (Arduino, PIC)", level: 85 },
+        { name: "Raspberry Pi (Linux)", level: 80 },
+        { name: "PID Control Systems", level: 78 },
+        { name: "Microcontrollers (AVR, ARM)", level: 80 }
+      ]
+    },

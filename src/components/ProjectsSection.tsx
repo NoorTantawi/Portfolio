@@ -41,7 +41,7 @@ const ProjectsSection = () => {
     category: "Software Development"
     },
     { 
-    title: "E-Commerce Pharmacy System",
+    title: "Pharmacy Management System",
     description: "A full-stack web application built with ASP.NET MVC and Web API using scaffolding for rapid development. Features include product catalog, inventory management, and online ordering tailored to pharmacy needs.",
     image: "/pharmacy.jpg", //
     tech: ["ASP.NET MVC", "Web API", "C#", "Scaffolding", "SQL Server"],

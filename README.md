@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# 🌟 Noor Tantawi – Developer Portfolio
 
-## Project info
+Welcome to my personal developer portfolio! This project showcases my skills, projects, and experiences in a clean and responsive web format.
 
-**URL**: https://lovable.dev/projects/7161aeb7-9027-426b-84a1-84c8a28252c0
+## 🔧 Features
 
-## How can I edit this code?
+- Smooth and responsive design with Tailwind CSS
+- Modern UI layout and animations
+- Project showcases with images, descriptions, and GitHub links
+- Skill list and toolset display
+- Credential and certification integration
+- Mobile-friendly layout
+  
 
-There are several ways of editing your application.
+## 🧑‍💻 Technologies Used
 
-**Use Lovable**
+- React
+- Tailwind CSS
+- TypeScript
+- Vite
+- Framer Motion (for animations)
+- Lucide React (icons)
+- Shadcn/ui (components)
+- npm (package manager)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7161aeb7-9027-426b-84a1-84c8a28252c0) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📁 Project Structure
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+├── public/               # Static assets
+├── src/                  # Source code
+│   ├── components/       # Reusable UI components
+│   └── pages/            # Page components
+├── index.html            # Main HTML file
+├── tailwind.config.ts    # Tailwind CSS configuration
+├── vite.config.ts        # Vite build configuration
+├── tsconfig.json         # TypeScript configuration
+├── package.json          # Project metadata and scripts
+└── README.md             # Project documentation
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Getting Started
 
-**Use GitHub Codespaces**
+To run this project locally:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/NoorTantawi/Portfolio.git
+   cd Portfolio
+   ```
 
-## What technologies are used for this project?
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-This project is built with:
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+4. Open http://localhost:5173 to view it in your browser.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🌐 Live Demo
 
-Simply open [Lovable](https://lovable.dev/projects/7161aeb7-9027-426b-84a1-84c8a28252c0) and click on Share -> Publish.
+You can view the live version of this portfolio at: [https://noortantawi.dev](https://noortantawi.dev)
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📬 Contact
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Feel free to reach out:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Email**: [noor@example.com](mailto:ntaltantawi21@cit.just.edu.jo)
+- **LinkedIn**: [linkedin.com/in/noortantawi](https://www.linkedin.com/in/nooraldeen-tantawi-3bb899237/)
+- **GitHub**: [github.com/NoorTantawi](https://github.com/NoorTantawi)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> Designed and developed by Noor Tantawi

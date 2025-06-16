@@ -9,7 +9,7 @@ interface ProfileAvatarProps {
 }
 
 const ProfileAvatar = ({ 
-  src = "/profile-photo.jpg", 
+  src = "/Me.jpg", 
   alt = "Nooraldeen Tantawi", 
   size = 'lg',
   className = ""

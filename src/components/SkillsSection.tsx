@@ -40,7 +40,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 px-4">
+    <section id="skills" className="py-20 px-4 bg-white dark:bg-gray-900 transition-colors">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -52,7 +52,7 @@ const SkillsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
             Technical Skills
           </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
             Full-stack development, hardware systems, and scalable architectures
           </p>
         </motion.div>
@@ -65,13 +65,13 @@ const SkillsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: categoryIndex * 0.2, duration: 0.8 }}
               viewport={{ once: true }}
-              className="bg-gray-800 rounded-xl p-6 hover:bg-gray-750 transition-colors duration-300"
+              className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 hover:bg-gray-200 dark:hover:bg-gray-750 transition-colors duration-300"
             >
               <div className="flex items-center mb-6">
                 <div className="bg-blue-600 p-3 rounded-lg mr-4">
                   <category.icon size={24} className="text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-white">{category.title}</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">{category.title}</h3>
               </div>
 
               <div className="space-y-4">
@@ -84,10 +84,10 @@ const SkillsSection = () => {
                     viewport={{ once: true }}
                   >
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-gray-300 font-medium">{skill.name}</span>
-                      <span className="text-blue-400 text-sm">{skill.level}%</span>
+                      <span className="text-gray-700 dark:text-gray-300 font-medium">{skill.name}</span>
+                      <span className="text-blue-600 dark:text-blue-400 text-sm">{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-gray-700 rounded-full h-2">
+                    <div className="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
                       <motion.div
                         className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full"
                         initial={{ width: 0 }}

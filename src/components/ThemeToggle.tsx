@@ -1,4 +1,3 @@
-
 "use client"
 
 import * as React from "react"
@@ -22,3 +21,4 @@ export function ThemeToggle() {
     </motion.button>
   )
 }
+export default ThemeToggle;

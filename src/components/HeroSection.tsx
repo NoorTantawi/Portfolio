@@ -1,6 +1,6 @@
-
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Mail } from 'lucide-react';
+import ProfileAvatar from './ProfileAvatar';
 
 const HeroSection = () => {
   return (
@@ -11,6 +11,11 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          {/* Profile Avatar */}
+          <div className="mb-8">
+            <ProfileAvatar size="xl" className="mx-auto" />
+          </div>
+
           <motion.h1
             className="text-5xl md:text-7xl font-bold mb-6"
             initial={{ opacity: 0, y: 20 }}
@@ -37,9 +42,8 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            Passionate about robotics, full-stack web development and building scalable, maintainable applications.  
-            Skilled in C++, C#, ASP.NET Core, and modern software engineering practices like Git, and clean architecture.  
-            Turning ideas into robust digital experiences.
+            Passionate about robotics, web development, and emerging technologies. 
+            Building the future one line of code at a time.
           </motion.p>
 
           <motion.div

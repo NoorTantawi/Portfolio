@@ -60,8 +60,8 @@ const AboutSection = () => {
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">Who Am I?</h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-2">
-                  💻 <strong>Junior .NET Developer</strong><br />
-                  🎓 <strong>Computer Engineering Student at JUST</strong>
+                   <strong>Junior .NET Developer</strong><br />
+                   <strong>Computer Engineering Student at JUST</strong>
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                   I'm Nooraldeen Tayseer Tantawi, a highly motivated student with a strong foundation in full-stack web development, robotics, and embedded systems. I’m driven by curiosity and a desire to bridge the gap between software and hardware solutions.

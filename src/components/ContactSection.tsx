@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import { Mail, Github, User } from 'lucide-react';
+import { Mail, Github, User, Instagram, LinkedinIcon } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 import emailjs from 'emailjs-com';
 
@@ -57,8 +57,14 @@ const ContactSection = () => {
     },
     {
       name: "LinkedIn",
-      icon: User,
+      icon: LinkedinIcon,
       url: "https://www.linkedin.com/in/nooraldeen-tantawi-3bb899237/",
+      color: "hover:text-purple-600 dark:hover:text-purple-400"
+    },
+    {
+      name: "Instagram",
+      icon: Instagram,
+      url: "https://www.instagram.com/altantawi82/",
       color: "hover:text-purple-600 dark:hover:text-purple-400"
     }
   ];

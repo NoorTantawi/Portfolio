@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Mail, User, ArrowUp } from 'lucide-react';
+import { Github, Mail, User, ArrowUp, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-12 px-4 transition-colors">
+    <footer className="bg-white dark:bg-gray-900 border-t border-gray-300 dark:border-gray-800 py-12 px-4 transition-colors">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <motion.div
@@ -60,14 +60,14 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
-                className="bg-gray-200 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-200"
+                className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-200"
               >
                 <Github size={20} />
               </motion.a>
               <motion.a
                 href="mailto:nooraldeen@email.com"
                 whileHover={{ scale: 1.1, y: -2 }}
-                className="bg-gray-200 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-200"
+                className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-200"
               >
                 <Mail size={20} />
               </motion.a>
@@ -76,9 +76,18 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
-                className="bg-gray-200 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-200"
+                className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-200"
               >
-                <User size={20} />
+                <Linkedin size={20} />
+              </motion.a>
+              <motion.a
+                href="https://www.instagram.com/altantawi82/"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.1, y: -2 }}
+                className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-600 dark:text-gray-400 hover:text-pink-500 dark:hover:text-pink-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-200"
+              >
+                <Instagram size={20} />
               </motion.a>
             </div>
           </motion.div>
